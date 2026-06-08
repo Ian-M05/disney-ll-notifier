@@ -1,9 +1,47 @@
 {
-  "alert_mode": "drops",
+  "destinations": ["Walt Disney World", "Universal Orlando"],
+  "parks": [],
+  "alerts": {
+    "lightning_lane_drops": true,
+    "multi_pass_drops": false,
+    "standby_under_minutes": 60,
+    "ride_down": true,
+    "ride_back_up": true
+  },
   "watchlist": [
     "TRON",
+    "Seven Dwarfs",
+    "Space Mountain",
+    "Peter Pan",
+    "Tiana",
+    "Big Thunder",
+    "Jungle Cruise",
     "Guardians of the Galaxy",
-    "Seven Dwarfs Mine Train"
-  ],
-  "parks": []
+    "Test Track",
+    "Remy",
+    "Frozen Ever After",
+    "Soarin",
+    "Slinky Dog",
+    "Rise of the Resistance",
+    "Millennium Falcon",
+    "Runaway Railway",
+    "Tower of Terror",
+    "Roller Coaster",
+    "Flight of Passage",
+    "Na'vi River",
+    "Expedition Everest",
+    "VelociCoaster",
+    "Hagrid",
+    "Forbidden Journey",
+    "Hulk",
+    "Gringotts",
+    "Rip Ride Rockit",
+    "Mummy",
+    "Stardust",
+    "Mario Kart",
+    "Battle at the Ministry",
+    "Hiccup",
+    "Monsters Unchained",
+    "Werewolf"
+  ]
 }
