@@ -7,8 +7,8 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 20,
+  "status": "OPERATING"
  },
  "00feb57b-4fcc-48bc-9490-c9af71f30c1c": {
   "multi_return": "?",
@@ -20,17 +20,6 @@
   "park": "Universal Epic Universe",
   "standby": 20,
   "status": "OPERATING"
- },
- "0164bf43-29ab-4528-8052-98befbe81bcb": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Mayday Falls",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "CLOSED"
  },
  "07143999-bacd-475f-a00b-8cc476204aff": {
   "multi_return": "?",
@@ -54,19 +43,8 @@
   "standby": null,
   "status": "OPERATING"
  },
- "09e16a0e-80d8-4569-929f-90252bd724cb": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Waturi Beach",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
  "0aae716c-af13-4439-b638-d75fb1649df3": {
-  "multi_return": "19:00",
+  "multi_return": "19:20",
   "multi_state": "AVAILABLE",
   "name": "Mad Tea Party",
   "paid_price": "",
@@ -120,28 +98,6 @@
   "standby": 10,
   "status": "OPERATING"
  },
- "10da7e41-bdcb-4aec-979d-058325565cc5": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Ohyah of the Ohyah and Ohno Drop Slides\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 10,
-  "status": "OPERATING"
- },
- "12f59f8b-b684-430e-b5f2-2ebee0e03335": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Ohno of the Ohyah and Ohno Drop Slides\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 10,
-  "status": "OPERATING"
- },
  "144450b9-4574-46be-abdf-4b1ca8974d9d": {
   "multi_return": "?",
   "multi_state": null,
@@ -151,28 +107,6 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": 15,
-  "status": "OPERATING"
- },
- "161f82e8-eaf8-4401-811b-fe2b45cccd0e": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Slush Gusher",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "185c53bc-7153-4bf1-a582-5c03d18c90ee": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Ketchakiddee Creek",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
   "status": "OPERATING"
  },
  "18c533d6-a395-4ae4-9488-80fce9c497fe": {
@@ -191,7 +125,7 @@
   "multi_state": null,
   "name": "Star Wars: Rise of the Resistance",
   "paid_price": "$22.00",
-  "paid_return": "19:30",
+  "paid_return": "19:40",
   "paid_state": "AVAILABLE",
   "park": "Disney's Hollywood Studios",
   "standby": 40,
@@ -218,17 +152,6 @@
   "park": "Disney's Animal Kingdom Theme Park",
   "standby": null,
   "status": "CLOSED"
- },
- "1b39b2bc-8bf3-4482-b0cf-9ad7329dc42f": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Bay Slides",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
  },
  "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8": {
   "multi_return": "?",
@@ -282,7 +205,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 30,
+  "standby": 35,
   "status": "OPERATING"
  },
  "2122adff-52a3-49ca-9d20-5a6faafc8c77": {
@@ -315,7 +238,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 5,
+  "standby": 10,
   "status": "OPERATING"
  },
  "2365495a-790b-4a41-831e-65592c8a4359": {
@@ -326,7 +249,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 5,
+  "standby": 10,
   "status": "OPERATING"
  },
  "23b613e0-ae83-455b-9163-231bdbd5c427": {
@@ -352,7 +275,7 @@
   "status": "CLOSED"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
-  "multi_return": "21:30",
+  "multi_return": "21:40",
   "multi_state": "AVAILABLE",
   "name": "Haunted Mansion",
   "paid_price": "",
@@ -373,17 +296,6 @@
   "standby": 5,
   "status": "OPERATING"
  },
- "26541d09-3004-4d9c-9aee-58a7aea98c1c": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Tot Tiki Reef\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
  "273ddb8d-e7b5-4e34-8657-1113f49262a5": {
   "multi_return": "?",
   "multi_state": null,
@@ -403,18 +315,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 15,
-  "status": "OPERATING"
- },
- "2b3e5eeb-0cbc-4d19-a46e-07b5ddf8a700": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Cross Country Creek",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
+  "standby": 5,
   "status": "OPERATING"
  },
  "2ebfb38c-5cb5-4de1-86c0-f7af14188022": {
@@ -461,17 +362,6 @@
   "standby": 5,
   "status": "OPERATING"
  },
- "310d5c7e-433c-46bb-91ee-da8bc39edf32": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Melt-Away Bay",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "32e01181-9a5f-4936-8a77-0dace1de836c": {
   "multi_return": "?",
   "multi_state": "FINISHED",
@@ -484,18 +374,18 @@
   "status": "CLOSED"
  },
  "34c4916b-989b-4ff1-a7e3-a6a846a3484f": {
-  "multi_return": "19:50",
+  "multi_return": "19:55",
   "multi_state": "AVAILABLE",
   "name": "Millennium Falcon: Smugglers Run",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 20,
+  "standby": 25,
   "status": "OPERATING"
  },
  "352feb94-e52e-45eb-9c92-e4b44c6b1a9d": {
-  "multi_return": "19:25",
+  "multi_return": "19:30",
   "multi_state": "AVAILABLE",
   "name": "Pirates of the Caribbean",
   "paid_price": "",
@@ -506,7 +396,7 @@
   "status": "OPERATING"
  },
  "35ed719b-f7f0-488f-8346-4fbf8055d373": {
-  "multi_return": "19:10",
+  "multi_return": "19:20",
   "multi_state": "AVAILABLE",
   "name": "Disney and Pixar Short Film Festival",
   "paid_price": "",
@@ -571,17 +461,6 @@
   "standby": 65,
   "status": "OPERATING"
  },
- "3a3c8fe9-7895-4c56-89c9-aac6d923356d": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Puka Uli Lagoon\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
  "3ace01d1-15fc-4fbb-99e4-81a696cb2d05": {
   "multi_return": "?",
   "multi_state": null,
@@ -594,24 +473,13 @@
   "status": "OPERATING"
  },
  "3b290419-8ca2-44bc-a710-a6c83fca76ec": {
-  "multi_return": "19:00",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "Star Tours \u2013 The Adventures Continue",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 5,
-  "status": "OPERATING"
- },
- "3c1498f0-69d2-4f19-b585-ea050f85c844": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Maku of Maku Puihi Round Raft Rides\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
   "standby": 5,
   "status": "OPERATING"
  },
@@ -627,7 +495,7 @@
   "status": "OPERATING"
  },
  "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef": {
-  "multi_return": "19:10",
+  "multi_return": "19:55",
   "multi_state": "AVAILABLE",
   "name": "Under the Sea - Journey of The Little Mermaid",
   "paid_price": "",
@@ -659,17 +527,6 @@
   "standby": null,
   "status": "CLOSED"
  },
- "3e26ef97-0ef4-49b5-8202-da7f5d1e7909": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Taniwha Tubes\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 5,
-  "status": "OPERATING"
- },
  "3e5f26ee-c02d-47fd-891e-5e4479073444": {
   "multi_return": "?",
   "multi_state": null,
@@ -689,7 +546,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 70,
+  "standby": 60,
   "status": "OPERATING"
  },
  "447033ce-ee1f-4cca-bb12-47d22583ac12": {
@@ -704,7 +561,7 @@
   "status": "OPERATING"
  },
  "480fde8f-fe58-4bfb-b3ab-052a39d4db7c": {
-  "multi_return": "19:05",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "Spaceship Earth",
   "paid_price": "",
@@ -736,17 +593,6 @@
   "standby": null,
   "status": "OPERATING"
  },
- "4eb17ae5-c47c-4ad2-97f3-189e56fa6d52": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Kala & Tai Nui Serpentine Body Slides\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 25,
-  "status": "OPERATING"
- },
  "4f0df9e7-d4c1-45b5-93e2-4a7bc92547b0": {
   "multi_return": "?",
   "multi_state": null,
@@ -769,17 +615,6 @@
   "standby": null,
   "status": "CLOSED"
  },
- "5327448f-463d-4567-8c5d-f1a169f4c14f": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Castaway Creek",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "578bbd12-1975-4ec3-9879-ea641c780342": {
   "multi_return": "?",
   "multi_state": null,
@@ -792,7 +627,7 @@
   "status": "OPERATING"
  },
  "57acb522-a6fc-4aa4-a80e-21f21f317250": {
-  "multi_return": "19:10",
+  "multi_return": "19:20",
   "multi_state": "AVAILABLE",
   "name": "Turtle Talk With Crush",
   "paid_price": "",
@@ -824,17 +659,6 @@
   "standby": 15,
   "status": "OPERATING"
  },
- "5f1005d2-410d-433e-93ec-c8a6a37f4d34": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "The Reef",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
  "61079a31-4165-4fb0-b36f-c01c5971f80a": {
   "multi_return": "?",
   "multi_state": null,
@@ -843,7 +667,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 35,
+  "standby": 30,
   "status": "OPERATING"
  },
  "61fb49f8-e62f-4e1c-ae0e-8ab9929037bc": {
@@ -865,7 +689,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 35,
+  "standby": 25,
   "status": "OPERATING"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
@@ -920,7 +744,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 5,
+  "standby": 10,
   "status": "OPERATING"
  },
  "6e118e37-5002-408d-9d88-0b5d9cdb5d14": {
@@ -956,20 +780,9 @@
   "standby": null,
   "status": "OPERATING"
  },
- "6f427ef0-9c56-4041-8f78-357ad2fcf390": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Teamboat Springs",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "6f6998e8-a629-412c-b964-2cb06af8e26b": {
-  "multi_return": "19:05",
-  "multi_state": "AVAILABLE",
+  "multi_return": "?",
+  "multi_state": "FINISHED",
   "name": "The Twilight Zone\u2122 Tower of Terror",
   "paid_price": "",
   "paid_return": "?",
@@ -1000,17 +813,6 @@
   "standby": 10,
   "status": "OPERATING"
  },
- "6fd38007-60d4-44cd-802c-13c3e9376267": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Punga Racers\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 10,
-  "status": "OPERATING"
- },
  "70ac72a3-9675-4c41-a1b1-e4801072927a": {
   "multi_return": "?",
   "multi_state": null,
@@ -1019,7 +821,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 35,
+  "standby": 45,
   "status": "OPERATING"
  },
  "7288f24a-396e-4eeb-bb3b-4a90e65269f2": {
@@ -1030,11 +832,11 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 20,
+  "standby": 15,
   "status": "OPERATING"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
-  "multi_return": "21:20",
+  "multi_return": "21:25",
   "multi_state": "AVAILABLE",
   "name": "Buzz Lightyear\u2019s Space Ranger Spin",
   "paid_price": "",
@@ -1052,18 +854,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 80,
-  "status": "OPERATING"
- },
- "74fde289-fcc3-47dc-ad9b-395efb04e89e": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "ika Moana of Honu ika Moana\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 10,
+  "standby": 85,
   "status": "OPERATING"
  },
  "750939c5-a69e-408a-8d55-66c272fa265e": {
@@ -1078,7 +869,7 @@
   "status": "OPERATING"
  },
  "75449e85-c410-4cef-a368-9d2ea5d52b58": {
-  "multi_return": "19:05",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "Journey Into Imagination With Figment",
   "paid_price": "",
@@ -1143,28 +934,6 @@
   "standby": 10,
   "status": "OPERATING"
  },
- "7dec8e5f-e082-4453-8fb3-f2f1da8b8aca": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Humunga Kowabunga",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "7e4402eb-0f0b-41d3-8713-3e57b7b58af8": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Typhoon Lagoon Surf Pool",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "7e70bc9e-7dce-4dd2-8823-57b8d6ec7570": {
   "multi_return": "?",
   "multi_state": null,
@@ -1174,17 +943,6 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": 25,
-  "status": "OPERATING"
- },
- "7f6b4ceb-8129-43ea-b1b4-dab5b9edcf66": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Puihi of Maku Puihi Round Raft Rides\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 5,
   "status": "OPERATING"
  },
  "8183f3f2-1b59-4b9c-b634-6a863bdf8d84": {
@@ -1207,17 +965,6 @@
   "paid_state": null,
   "park": "EPCOT",
   "standby": 50,
-  "status": "OPERATING"
- },
- "849728c7-0043-4bbe-af64-e65679679e09": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Toboggan Racers",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
   "status": "OPERATING"
  },
  "86a41273-5f15-4b54-93b6-829f140e5161": {
@@ -1243,7 +990,7 @@
   "status": "CLOSED"
  },
  "890fa430-89c0-4a3f-96c9-11597888005e": {
-  "multi_return": "19:00",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "Dumbo the Flying Elephant",
   "paid_price": "",
@@ -1251,28 +998,6 @@
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": 5,
-  "status": "OPERATING"
- },
- "896053f3-55e7-40f9-9473-208d4bc43d33": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Snow Stormers",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "89f2586a-328a-413e-802f-307260d9ce37": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Honu of Honu ika Moana\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 25,
   "status": "OPERATING"
  },
  "8babd50d-c570-423b-bd53-d040cad3e087": {
@@ -1305,11 +1030,11 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 55,
+  "standby": 45,
   "status": "OPERATING"
  },
  "8f353879-d6ac-4211-9352-4029efb47c18": {
-  "multi_return": "19:05",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "Living with the Land",
   "paid_price": "",
@@ -1386,25 +1111,25 @@
   "status": "OPERATING"
  },
  "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48": {
-  "multi_return": "19:25",
+  "multi_return": "19:35",
   "multi_state": "AVAILABLE",
   "name": "The Barnstormer",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 25,
   "status": "OPERATING"
  },
  "96455de6-f4f1-403c-9391-bf8396979149": {
-  "multi_return": "19:00",
+  "multi_return": "19:20",
   "multi_state": "AVAILABLE",
   "name": "The Magic Carpets of Aladdin",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
+  "standby": 5,
   "status": "OPERATING"
  },
  "96e71193-49f0-40b2-9bba-644e530d8115": {
@@ -1415,28 +1140,6 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 5,
-  "status": "OPERATING"
- },
- "97011c19-a864-4922-b63b-6519ca9e6ed0": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Chairlift",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "9855e94c-7ccb-40a6-a1de-5de82699e1dd": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Kopiko Wai Winding River\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
   "standby": null,
   "status": "CLOSED"
  },
@@ -1445,22 +1148,11 @@
   "multi_state": null,
   "name": "Seven Dwarfs Mine Train",
   "paid_price": "$12.00",
-  "paid_return": "?",
-  "paid_state": "FINISHED",
+  "paid_return": "20:05",
+  "paid_state": "AVAILABLE",
   "park": "Magic Kingdom Park",
   "standby": null,
   "status": "DOWN"
- },
- "9fd9c4e3-2fbc-4705-975e-67abe45c4281": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Crush 'n' Gusher",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
  },
  "a15ce7cf-342a-4c7a-9372-7a1fa1054747": {
   "multi_return": "?",
@@ -1473,28 +1165,6 @@
   "standby": null,
   "status": "CLOSED"
  },
- "a3886522-e19f-4154-8cdf-1ca7160e4e2b": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Keelhaul Falls",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "ada6a611-31ef-426a-a1f4-bfce8503f4a6": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Runoff Rapids",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "b1e94e05-b360-4e3f-be8a-2a3744a97f97": {
   "multi_return": "?",
   "multi_state": null,
@@ -1506,37 +1176,15 @@
   "standby": 5,
   "status": "OPERATING"
  },
- "b218c3de-0f7f-436c-be44-2f5112d5d139": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Ski Patrol Training Camp",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "b2260923-9315-40fd-9c6b-44dd811dbe64": {
-  "multi_return": "22:25",
-  "multi_state": "AVAILABLE",
+  "multi_return": "?",
+  "multi_state": "FINISHED",
   "name": "Space Mountain",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": 40,
-  "status": "OPERATING"
- },
- "b2a614e0-a40c-4f46-85f9-c0556086f6a8": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Ko'okiri Body Plunge\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 15,
   "status": "OPERATING"
  },
  "b4445a1c-4d5c-4fca-a04a-f8867f1b6619": {
@@ -1572,28 +1220,6 @@
   "standby": 10,
   "status": "OPERATING"
  },
- "b7ec0e94-e2bf-40b6-9c7a-a5dee143efdc": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "TeAwa The Fearless River\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
- "b9516054-a8b4-4d4c-aa0b-a60f3c3dc360": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Summit Plummet",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53": {
   "multi_return": "?",
   "multi_state": null,
@@ -1616,39 +1242,6 @@
   "standby": null,
   "status": "OPERATING"
  },
- "bd408ea5-efba-47da-84cc-e304ac0ee974": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Tike's Peak",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
- "c1cdeb80-67e3-4b75-b057-440004c8f499": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Krakatau\u2122 Aqua Coaster",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": 25,
-  "status": "OPERATING"
- },
- "c641eebb-baa6-4573-b110-0edd752bbc7a": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Runamukka Reef\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Universal Volcano Bay",
-  "standby": null,
-  "status": "CLOSED"
- },
  "c6b1b8cf-55ef-416c-b00d-e469993617b0": {
   "multi_return": "?",
   "multi_state": null,
@@ -1658,17 +1251,6 @@
   "paid_state": null,
   "park": "Universal Epic Universe",
   "standby": 20,
-  "status": "OPERATING"
- },
- "d298e9e5-cb62-40f7-803a-5e8500023474": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Miss Adventure Falls",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
   "status": "OPERATING"
  },
  "d56506e2-6ad3-443a-8065-fea37987248d": {
@@ -1745,7 +1327,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 105,
+  "standby": 90,
   "status": "OPERATING"
  },
  "dd8c015d-511f-47d4-b98b-18ce15735588": {
@@ -1848,7 +1430,7 @@
   "status": "CLOSED"
  },
  "e8f0b426-7645-4ea3-8b41-b94ae7091a41": {
-  "multi_return": "19:00",
+  "multi_return": "19:20",
   "multi_state": "AVAILABLE",
   "name": "Monsters Inc. Laugh Floor",
   "paid_price": "",
@@ -1914,7 +1496,7 @@
   "status": "OPERATING"
  },
  "f163ddcd-43e1-488d-8276-2381c1db0a39": {
-  "multi_return": "19:30",
+  "multi_return": "19:50",
   "multi_state": "AVAILABLE",
   "name": "Tomorrowland Speedway",
   "paid_price": "",
@@ -1936,7 +1518,7 @@
   "status": "CLOSED"
  },
  "f5aad2d4-a419-4384-bd9a-42f86385c750": {
-  "multi_return": "19:00",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "\"it's a small world\"",
   "paid_price": "",
@@ -1944,17 +1526,6 @@
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": 5,
-  "status": "OPERATING"
- },
- "f61c4451-d0d6-440a-bdc7-cf059b5ffbc3": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Storm Slides",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
   "status": "OPERATING"
  },
  "f6dba1c6-6f5a-4743-8470-f741ecac555d": {
@@ -1968,17 +1539,6 @@
   "standby": null,
   "status": "CLOSED"
  },
- "f8f36470-ca60-4072-ba2c-9d186a337cac": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Gangplank Falls",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Typhoon Lagoon Water Park",
-  "standby": null,
-  "status": "OPERATING"
- },
  "fa743143-281b-4b5b-b87b-d49fcb006772": {
   "multi_return": "?",
   "multi_state": null,
@@ -1987,11 +1547,11 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 5,
+  "standby": 10,
   "status": "OPERATING"
  },
  "fb076275-0570-4d62-b2a9-4d6515130fa3": {
-  "multi_return": "19:05",
+  "multi_return": "19:15",
   "multi_state": "AVAILABLE",
   "name": "The Seas with Nemo & Friends",
   "paid_price": "",
@@ -1999,17 +1559,6 @@
   "paid_state": null,
   "park": "EPCOT",
   "standby": 5,
-  "status": "OPERATING"
- },
- "fdc8e386-4fc9-4d0f-ba0d-d3df695df071": {
-  "multi_return": "?",
-  "multi_state": null,
-  "name": "Downhill Double Dipper",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
-  "park": "Disney's Blizzard Beach Water Park",
-  "standby": null,
   "status": "OPERATING"
  },
  "ffcfeaa2-1416-4920-a1ed-543c1a1695c4": {
