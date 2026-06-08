@@ -166,6 +166,10 @@ def notify(alerts):
 
 
 def main():
+    if os.environ.get("LL_TEST_NOTIFY") == "true":
+        notify(["✅ Test alert from disney-ll-notifier — your phone link works!"])
+        return
+
     cfg = load_json(CONFIG_FILE, {})
     park_filter = [p.lower() for p in cfg.get("parks", [])]
     prev = load_json(STATE_FILE, {})
