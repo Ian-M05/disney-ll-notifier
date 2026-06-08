@@ -2,10 +2,12 @@
   "destinations": ["Walt Disney World", "Universal Orlando"],
   "parks": [],
   "exclude_parks": ["Water Park", "Volcano Bay"],
+  "quiet_hours": {"start": "01:00", "end": "07:00"},
   "alerts": {
     "lightning_lane_drops": true,
     "multi_pass_drops": false,
     "standby_under_minutes": 60,
+    "standby_rearm_margin": 15,
     "ride_down": true,
     "ride_back_up": true
   },

@@ -23,6 +23,8 @@ Scope:
                   down/back-up* alerts. Lightning Lane and Multi Pass drops
                   always fire for every ride in scope. Empty watchlist = those
                   noisier alerts apply to all rides too.
+  quiet_hours   - {"start": "HH:MM", "end": "HH:MM"} in US Eastern time; alerts
+                  are suppressed during this window (overnight wrap supported).
 """
 
 import json
@@ -30,7 +32,12 @@ import os
 import smtplib
 import urllib.parse
 import urllib.request
+from datetime import datetime
 from email.mime.text import MIMEText
+from zoneinfo import ZoneInfo
+
+# Both Walt Disney World and Universal Orlando are in US Eastern time.
+PARK_TZ = ZoneInfo("America/New_York")
 
 API = "https://api.themeparks.wiki/v1"
 STATE_FILE = "state.json"
@@ -103,6 +110,7 @@ def diff_alerts(prev, curr, cfg):
     threshold = a.get("standby_under_minutes")
     want_down = a.get("ride_down", False)
     want_up = a.get("ride_back_up", False)
+    margin = a.get("standby_rearm_margin", 15)
     watch = [w.lower() for w in cfg.get("watchlist", [])]
 
     alerts = []
@@ -131,13 +139,21 @@ def diff_alerts(prev, curr, cfg):
         if not in_watch:
             continue
 
-        if threshold and now["status"] == "OPERATING":
-            now_wait, was_wait = now["standby"], before.get("standby")
-            if isinstance(now_wait, int) and isinstance(was_wait, int) \
+        # Standby drop with anti-flap: once we alert, don't alert again until the
+        # wait climbs back to threshold + margin (so a ride hovering near the
+        # cutoff doesn't ping repeatedly).
+        armed = before.get("standby_armed", True)
+        now_wait, was_wait = now["standby"], before.get("standby")
+        if threshold and now["status"] == "OPERATING" and isinstance(now_wait, int):
+            if armed and isinstance(was_wait, int) \
                     and was_wait >= threshold and now_wait < threshold:
                 alerts.append(
                     f"⏱️ {where}: standby down to {now_wait} min (under {threshold})"
                 )
+                armed = False
+            if now_wait >= threshold + margin:
+                armed = True
+        now["standby_armed"] = armed
 
         if want_down and now["status"] == "DOWN" and before.get("status") != "DOWN":
             alerts.append(f"🛠️ {where}: went DOWN")
@@ -147,6 +163,18 @@ def diff_alerts(prev, curr, cfg):
             alerts.append(f"✅ {where}: back up{wait}")
 
     return alerts
+
+
+def in_quiet_hours(cfg):
+    """True if the current Eastern time falls in the configured quiet window."""
+    qh = cfg.get("quiet_hours") or {}
+    start, end = qh.get("start"), qh.get("end")
+    if not start or not end:
+        return False
+    now = datetime.now(PARK_TZ).strftime("%H:%M")
+    if start <= end:                 # same-day window, e.g. 13:00–14:00
+        return start <= now < end
+    return now >= start or now < end  # overnight window, e.g. 01:00–07:00
 
 
 def notify(alerts):
@@ -216,7 +244,9 @@ def main():
 
     if prev:
         alerts = diff_alerts(prev, curr, cfg)
-        if alerts:
+        if alerts and in_quiet_hours(cfg):
+            print(f"{len(alerts)} alert(s) suppressed (quiet hours)")
+        elif alerts:
             print(f"{len(alerts)} alert(s):")
             for a in alerts:
                 print(" ", a)
