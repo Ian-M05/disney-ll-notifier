@@ -67,6 +67,7 @@ so the ntfy push is more reliable.
 | `parks` | park name fragments | Allow-list within those resorts, e.g. `["Magic Kingdom", "Epic Universe"]`. Empty = all parks |
 | `exclude_parks` | park name fragments | Parks to skip, e.g. `["Water Park", "Volcano Bay"]` |
 | `watchlist` | ride name fragments | Scopes the **standby** and **ride down/back-up** alerts to matching rides, e.g. `"Lightcycle"`. Lightning Lane / Multi Pass drops always fire for *every* ride in scope |
+| `quiet_hours` | `{"start":"HH:MM","end":"HH:MM"}` | Suppress all alerts during this window (US Eastern, overnight wrap OK). Ships `01:00`–`07:00`. Omit to disable |
 
 ### Alerts — *what* to be told about (`alerts` object)
 
@@ -75,6 +76,7 @@ so the ntfy push is more reliable.
 | `lightning_lane_drops` | `true`/`false` | A paid Single Pass / Individual Lightning Lane flips sold out → available (with price + return time) |
 | `multi_pass_drops` | `true`/`false` | A free Multi Pass / Lightning Lane return time opens |
 | `standby_under_minutes` | number or `0`/omit | Standby wait drops below this many minutes — fires once on the downward crossing |
+| `standby_rearm_margin` | number (default `15`) | After a standby alert, don't re-alert that ride until its wait recovers to `standby_under_minutes + this` (anti-flap) |
 | `ride_down` | `true`/`false` | A ride goes DOWN (breakdown) |
 | `ride_back_up` | `true`/`false` | A ride comes back from DOWN to OPERATING |
 
