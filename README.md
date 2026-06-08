@@ -1,8 +1,9 @@
-# Disney World Lightning Lane Notifier
+# Theme Park Ride Notifier (WDW + Universal Orlando)
 
-Pings your phone when a sold-out Lightning Lane at Walt Disney World becomes
-available again. Runs entirely in the cloud on GitHub Actions — your computer
-can be off.
+Pings your phone about the rides you care about at Walt Disney World **and**
+Universal Orlando (including Epic Universe): paid Lightning Lane drops, standby
+waits dropping under a threshold, and rides breaking down / coming back up.
+Runs entirely in the cloud on GitHub Actions — your computer can be off.
 
 Data comes from the free community [ThemeParks.wiki API](https://api.themeparks.wiki),
 so no Disney credentials or scraping involved.
@@ -58,13 +59,32 @@ so the ntfy push is more reliable.
 
 ## Settings (`config.json`)
 
+### Scope — *where* to watch
+
 | Key | Values | Meaning |
 |---|---|---|
-| `alert_mode` | `"drops"` (default) | Alert when any paid Single Pass flips from sold out → available |
-| | `"watchlist"` | Only rides in `watchlist` (matches Single Pass *and* Multi Pass openings) |
-| | `"all"` | Every Lightning Lane state change, all rides — noisy |
-| `watchlist` | ride name fragments | Case-insensitive substring match, e.g. `"TRON"` |
-| `parks` | park name fragments | Limit to certain parks, e.g. `["Magic Kingdom", "EPCOT"]`. Empty = all four |
+| `destinations` | resort name fragments | e.g. `["Walt Disney World", "Universal Orlando"]`. Case-insensitive substring match |
+| `parks` | park name fragments | Limit within those resorts, e.g. `["Magic Kingdom", "Epic Universe"]`. Empty = all parks |
+| `watchlist` | ride name fragments | If non-empty, **every** alert is limited to matching rides, e.g. `"TRON"`. Empty = all rides |
+
+### Alerts — *what* to be told about (`alerts` object)
+
+| Key | Values | Meaning |
+|---|---|---|
+| `lightning_lane_drops` | `true`/`false` | A paid Single Pass / Individual Lightning Lane flips sold out → available (with price + return time) |
+| `multi_pass_drops` | `true`/`false` | A free Multi Pass / Lightning Lane return time opens |
+| `standby_under_minutes` | number or `0`/omit | Standby wait drops below this many minutes — fires once on the downward crossing |
+| `ride_down` | `true`/`false` | A ride goes DOWN (breakdown) |
+| `ride_back_up` | `true`/`false` | A ride comes back from DOWN to OPERATING |
+
+The shipped config watches both resorts, alerts on Lightning Lane drops +
+standby-under-60-min + ride down/up, and limits all of it to a curated list of
+headliner rides (the ones where these alerts actually matter). Edit the
+`watchlist` to add/remove rides, or empty it (`[]`) to track everything.
+
+> **Note on standby alerts:** an empty `watchlist` plus `standby_under_minutes`
+> would alert on nearly every ride (most are always under an hour). Keep a
+> watchlist of headliners for standby alerts to stay useful.
 
 ## Good to know
 
