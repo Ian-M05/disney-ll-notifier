@@ -15,11 +15,14 @@ What it can alert on (toggle in config.json -> "alerts"):
   ride_back_up          - a ride comes back from DOWN to OPERATING.
 
 Scope:
-  destinations - which resorts to watch, e.g. ["Walt Disney World",
-                 "Universal Orlando"] (case-insensitive name fragments).
-  parks        - optional park-name filter within those resorts. Empty = all.
-  watchlist    - optional ride-name fragments. If non-empty, *every* alert is
-                 limited to matching rides. Empty = all rides in scope.
+  destinations  - which resorts to watch, e.g. ["Walt Disney World",
+                  "Universal Orlando"] (case-insensitive name fragments).
+  parks         - optional park-name allow-list within those resorts. Empty = all.
+  exclude_parks - park-name fragments to skip, e.g. ["Water Park", "Volcano Bay"].
+  watchlist     - ride-name fragments that scope the *standby* and *ride
+                  down/back-up* alerts. Lightning Lane and Multi Pass drops
+                  always fire for every ride in scope. Empty watchlist = those
+                  noisier alerts apply to all rides too.
 """
 
 import json
@@ -107,10 +110,10 @@ def diff_alerts(prev, curr, cfg):
         before = prev.get(aid)
         if before is None:
             continue  # first time we've seen this ride; baseline only
-        if watch and not any(w in now["name"].lower() for w in watch):
-            continue
         where = f"{now['name']} ({now['park']})"
+        in_watch = not watch or any(w in now["name"].lower() for w in watch)
 
+        # Lightning Lane / Multi Pass drops fire for every ride in scope.
         if want_ll and now["paid_state"] == "AVAILABLE" \
                 and before.get("paid_state") != "AVAILABLE":
             price = now["paid_price"] or "paid"
@@ -123,6 +126,10 @@ def diff_alerts(prev, curr, cfg):
             alerts.append(
                 f"🎟️ {where}: Multi Pass return times open, next {now['multi_return']}"
             )
+
+        # Standby / breakdown alerts are limited to the watchlist (noisier).
+        if not in_watch:
+            continue
 
         if threshold and now["status"] == "OPERATING":
             now_wait, was_wait = now["standby"], before.get("standby")
@@ -188,11 +195,15 @@ def main():
 
     cfg = load_json(CONFIG_FILE, {})
     park_filter = [p.lower() for p in cfg.get("parks", [])]
+    exclude = [p.lower() for p in cfg.get("exclude_parks", [])]
     prev = load_json(STATE_FILE, {})
 
     curr = {}
     for park in list_parks(cfg):
-        if park_filter and not any(p in park["name"].lower() for p in park_filter):
+        name = park["name"].lower()
+        if park_filter and not any(p in name for p in park_filter):
+            continue
+        if exclude and any(x in name for x in exclude):
             continue
         try:
             curr.update(snapshot(park))

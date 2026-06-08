@@ -64,8 +64,9 @@ so the ntfy push is more reliable.
 | Key | Values | Meaning |
 |---|---|---|
 | `destinations` | resort name fragments | e.g. `["Walt Disney World", "Universal Orlando"]`. Case-insensitive substring match |
-| `parks` | park name fragments | Limit within those resorts, e.g. `["Magic Kingdom", "Epic Universe"]`. Empty = all parks |
-| `watchlist` | ride name fragments | If non-empty, **every** alert is limited to matching rides, e.g. `"TRON"`. Empty = all rides |
+| `parks` | park name fragments | Allow-list within those resorts, e.g. `["Magic Kingdom", "Epic Universe"]`. Empty = all parks |
+| `exclude_parks` | park name fragments | Parks to skip, e.g. `["Water Park", "Volcano Bay"]` |
+| `watchlist` | ride name fragments | Scopes the **standby** and **ride down/back-up** alerts to matching rides, e.g. `"Lightcycle"`. Lightning Lane / Multi Pass drops always fire for *every* ride in scope |
 
 ### Alerts — *what* to be told about (`alerts` object)
 
@@ -77,14 +78,16 @@ so the ntfy push is more reliable.
 | `ride_down` | `true`/`false` | A ride goes DOWN (breakdown) |
 | `ride_back_up` | `true`/`false` | A ride comes back from DOWN to OPERATING |
 
-The shipped config watches both resorts, alerts on Lightning Lane drops +
-standby-under-60-min + ride down/up, and limits all of it to a curated list of
-headliner rides (the ones where these alerts actually matter). Edit the
-`watchlist` to add/remove rides, or empty it (`[]`) to track everything.
+The shipped config watches both resorts (water parks excluded), pushes **every
+Lightning Lane drop** resort-wide, and adds standby-under-60-min + ride
+down/back-up alerts for a broad watchlist of ~85 real rides. Edit the
+`watchlist` to add/remove rides.
 
-> **Note on standby alerts:** an empty `watchlist` plus `standby_under_minutes`
-> would alert on nearly every ride (most are always under an hour). Keep a
-> watchlist of headliners for standby alerts to stay useful.
+> **Note on standby alerts:** an empty `watchlist` makes the standby and
+> down/back-up alerts apply to *every* ride — noisy, since most rides are
+> always under an hour and minor rides break down often. Keep a watchlist for
+> those two alert types to stay useful. (Lightning Lane drops are low-volume,
+> so they fire resort-wide regardless.)
 
 ## Good to know
 
