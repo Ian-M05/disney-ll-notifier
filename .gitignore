@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local notification overrides (do not commit secrets)
+.env
+
+# Note: state.json is intentionally NOT ignored — the GitHub Actions
+# workflow commits it back to the repo to remember state between runs.
