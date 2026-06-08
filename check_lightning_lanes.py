@@ -130,7 +130,7 @@ def notify(alerts):
     body = "\n".join(alerts)
     sent = False
 
-    topic = os.environ.get("NTFY_TOPIC")
+    topic = (os.environ.get("NTFY_TOPIC") or "").strip()
     if topic:
         req = urllib.request.Request(
             f"https://ntfy.sh/{urllib.parse.quote(topic)}",
@@ -145,8 +145,8 @@ def notify(alerts):
         print("Sent ntfy push")
         sent = True
 
-    host = os.environ.get("SMTP_HOST")
-    to = os.environ.get("EMAIL_TO")
+    host = (os.environ.get("SMTP_HOST") or "").strip()
+    to = (os.environ.get("EMAIL_TO") or "").strip()
     if host and to:
         msg = MIMEText(body)
         msg["Subject"] = f"Lightning Lane alert ({len(alerts)})"
