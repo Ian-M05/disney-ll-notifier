@@ -70,7 +70,7 @@
   "status": "CLOSED"
  },
  "0d94ad60-72f0-4551-83a6-ebaecdd89737": {
-  "multi_return": "15:50",
+  "multi_return": "16:45",
   "multi_state": "AVAILABLE",
   "name": "The Many Adventures of Winnie the Pooh",
   "paid_price": "",
@@ -172,7 +172,7 @@
   "status": "CLOSED"
  },
  "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0": {
-  "multi_return": "17:15",
+  "multi_return": "17:20",
   "multi_state": "AVAILABLE",
   "name": "Remy's Ratatouille Adventure",
   "paid_price": "",
@@ -207,7 +207,7 @@
   "status": "OPERATING"
  },
  "20b5daa8-e1ea-436f-830c-2d7d18d929b5": {
-  "multi_return": "21:20",
+  "multi_return": "21:25",
   "multi_state": "AVAILABLE",
   "name": "Toy Story Mania!",
   "paid_price": "",
@@ -281,7 +281,7 @@
   "multi_state": null,
   "name": "Avatar Flight of Passage",
   "paid_price": "$16.00",
-  "paid_return": "18:15",
+  "paid_return": "18:20",
   "paid_state": "AVAILABLE",
   "park": "Disney's Animal Kingdom Theme Park",
   "standby": null,
@@ -289,7 +289,7 @@
   "status": "CLOSED"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
-  "multi_return": "18:35",
+  "multi_return": "16:50",
   "multi_state": "AVAILABLE",
   "name": "Haunted Mansion",
   "paid_price": "",
@@ -394,7 +394,7 @@
   "status": "CLOSED"
  },
  "34c4916b-989b-4ff1-a7e3-a6a846a3484f": {
-  "multi_return": "09:15",
+  "multi_return": "09:25",
   "multi_state": "AVAILABLE",
   "name": "Millennium Falcon: Smugglers Run",
   "paid_price": "",
@@ -406,7 +406,7 @@
   "status": "CLOSED"
  },
  "352feb94-e52e-45eb-9c92-e4b44c6b1a9d": {
-  "multi_return": "14:55",
+  "multi_return": "15:00",
   "multi_state": "AVAILABLE",
   "name": "Pirates of the Caribbean",
   "paid_price": "",
@@ -476,7 +476,7 @@
   "status": "CLOSED"
  },
  "399aa0a1-98e2-4d2b-b297-2b451e9665e1": {
-  "multi_return": "21:00",
+  "multi_return": "21:10",
   "multi_state": "AVAILABLE",
   "name": "Slinky Dog Dash",
   "paid_price": "",
@@ -593,7 +593,7 @@
   "status": "CLOSED"
  },
  "480fde8f-fe58-4bfb-b3ab-052a39d4db7c": {
-  "multi_return": "12:30",
+  "multi_return": "11:10",
   "multi_state": "AVAILABLE",
   "name": "Spaceship Earth",
   "paid_price": "",
@@ -731,7 +731,7 @@
   "status": "CLOSED"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
-  "multi_return": "09:10",
+  "multi_return": "09:00",
   "multi_state": "AVAILABLE",
   "name": "Expedition Everest - Legend of the Forbidden Mountain",
   "paid_price": "",
@@ -790,7 +790,7 @@
   "status": "CLOSED"
  },
  "6e118e37-5002-408d-9d88-0b5d9cdb5d14": {
-  "multi_return": "10:15",
+  "multi_return": "10:55",
   "multi_state": "AVAILABLE",
   "name": "Mickey & Minnie's Runaway Railway",
   "paid_price": "",
@@ -824,7 +824,7 @@
   "status": "OPERATING"
  },
  "6f6998e8-a629-412c-b964-2cb06af8e26b": {
-  "multi_return": "16:25",
+  "multi_return": "21:00",
   "multi_state": "AVAILABLE",
   "name": "The Twilight Zone\u2122 Tower of Terror",
   "paid_price": "",
@@ -882,7 +882,7 @@
   "status": "CLOSED"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
-  "multi_return": "19:50",
+  "multi_return": "19:55",
   "multi_state": "AVAILABLE",
   "name": "Buzz Lightyear\u2019s Space Ranger Spin",
   "paid_price": "",
@@ -965,7 +965,7 @@
   "status": "CLOSED"
  },
  "7a5af3b7-9bc1-4962-92d0-3ea9c9ce35f0": {
-  "multi_return": "17:40",
+  "multi_return": "17:45",
   "multi_state": "AVAILABLE",
   "name": "Na'vi River Journey",
   "paid_price": "",
@@ -1011,7 +1011,7 @@
   "status": "CLOSED"
  },
  "81b15dfd-cf6a-466f-be59-3dd65d2a2807": {
-  "multi_return": "17:35",
+  "multi_return": "17:50",
   "multi_state": "AVAILABLE",
   "name": "Soarin' Across America",
   "paid_price": "",
@@ -1184,7 +1184,7 @@
   "status": "CLOSED"
  },
  "96455de6-f4f1-403c-9391-bf8396979149": {
-  "multi_return": "09:40",
+  "multi_return": "10:30",
   "multi_state": "AVAILABLE",
   "name": "The Magic Carpets of Aladdin",
   "paid_price": "",
@@ -1242,7 +1242,7 @@
   "status": "CLOSED"
  },
  "b2260923-9315-40fd-9c6b-44dd811dbe64": {
-  "multi_return": "10:45",
+  "multi_return": "10:50",
   "multi_state": "AVAILABLE",
   "name": "Space Mountain",
   "paid_price": "",
@@ -1324,7 +1324,7 @@
   "status": "CLOSED"
  },
  "d56506e2-6ad3-443a-8065-fea37987248d": {
-  "multi_return": "10:00",
+  "multi_return": "12:20",
   "multi_state": "AVAILABLE",
   "name": "Alien Swirling Saucers",
   "paid_price": "",
@@ -1336,7 +1336,7 @@
   "status": "CLOSED"
  },
  "d58d9262-ec95-4161-80a0-07ca43b2f5f3": {
-  "multi_return": "12:35",
+  "multi_return": "12:40",
   "multi_state": "AVAILABLE",
   "name": "Kali River Rapids",
   "paid_price": "",
@@ -1418,7 +1418,7 @@
   "status": "CLOSED"
  },
  "de3309ca-97d5-4211-bffe-739fed47e92f": {
-  "multi_return": "22:10",
+  "multi_return": "21:55",
   "multi_state": "AVAILABLE",
   "name": "Big Thunder Mountain Railroad",
   "paid_price": "",
@@ -1475,7 +1475,7 @@
   "status": "CLOSED"
  },
  "e516f303-e82d-4fd3-8fbf-8e6ab624cf89": {
-  "multi_return": "15:55",
+  "multi_return": "16:00",
   "multi_state": "AVAILABLE",
   "name": "Rock \u2019n\u2019 Roller Coaster Starring The Muppets",
   "paid_price": "",
@@ -1600,7 +1600,7 @@
   "status": "CLOSED"
  },
  "f5aad2d4-a419-4384-bd9a-42f86385c750": {
-  "multi_return": "10:05",
+  "multi_return": "10:10",
   "multi_state": "AVAILABLE",
   "name": "\"it's a small world\"",
   "paid_price": "",
