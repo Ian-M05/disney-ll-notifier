@@ -46,7 +46,7 @@
   "status": "OPERATING"
  },
  "0aae716c-af13-4439-b638-d75fb1649df3": {
-  "multi_return": "09:10",
+  "multi_return": "10:00",
   "multi_state": "AVAILABLE",
   "name": "Mad Tea Party",
   "paid_price": "",
@@ -70,7 +70,7 @@
   "status": "CLOSED"
  },
  "0d94ad60-72f0-4551-83a6-ebaecdd89737": {
-  "multi_return": "17:20",
+  "multi_return": "15:00",
   "multi_state": "AVAILABLE",
   "name": "The Many Adventures of Winnie the Pooh",
   "paid_price": "",
@@ -149,7 +149,7 @@
   "status": "CLOSED"
  },
  "1b15c77b-0311-4171-8e59-7f38e6d60754": {
-  "multi_return": "08:10",
+  "multi_return": "08:30",
   "multi_state": "AVAILABLE",
   "name": "Zootopia: Better Zoogether!",
   "paid_price": "",
@@ -207,8 +207,8 @@
   "status": "CLOSED"
  },
  "20b5daa8-e1ea-436f-830c-2d7d18d929b5": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "19:35",
+  "multi_state": "AVAILABLE",
   "name": "Toy Story Mania!",
   "paid_price": "",
   "paid_return": "?",
@@ -289,7 +289,7 @@
   "status": "CLOSED"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
-  "multi_return": "15:25",
+  "multi_return": "18:35",
   "multi_state": "AVAILABLE",
   "name": "Haunted Mansion",
   "paid_price": "",
@@ -382,7 +382,7 @@
   "status": "CLOSED"
  },
  "32e01181-9a5f-4936-8a77-0dace1de836c": {
-  "multi_return": "11:15",
+  "multi_return": "11:20",
   "multi_state": "AVAILABLE",
   "name": "Kilimanjaro Safaris",
   "paid_price": "",
@@ -394,7 +394,7 @@
   "status": "CLOSED"
  },
  "34c4916b-989b-4ff1-a7e3-a6a846a3484f": {
-  "multi_return": "10:10",
+  "multi_return": "10:15",
   "multi_state": "AVAILABLE",
   "name": "Millennium Falcon: Smugglers Run",
   "paid_price": "",
@@ -406,7 +406,7 @@
   "status": "CLOSED"
  },
  "352feb94-e52e-45eb-9c92-e4b44c6b1a9d": {
-  "multi_return": "15:00",
+  "multi_return": "15:20",
   "multi_state": "AVAILABLE",
   "name": "Pirates of the Caribbean",
   "paid_price": "",
@@ -453,7 +453,7 @@
   "status": "CLOSED"
  },
  "37ae57c5-feaf-4e47-8f27-4b385be200f0": {
-  "multi_return": "20:20",
+  "multi_return": "20:10",
   "multi_state": "AVAILABLE",
   "name": "Test Track",
   "paid_price": "",
@@ -523,7 +523,7 @@
   "status": "CLOSED"
  },
  "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef": {
-  "multi_return": "10:10",
+  "multi_return": "10:25",
   "multi_state": "AVAILABLE",
   "name": "Under the Sea - Journey of The Little Mermaid",
   "paid_price": "",
@@ -593,7 +593,7 @@
   "status": "CLOSED"
  },
  "480fde8f-fe58-4bfb-b3ab-052a39d4db7c": {
-  "multi_return": "10:55",
+  "multi_return": "12:00",
   "multi_state": "AVAILABLE",
   "name": "Spaceship Earth",
   "paid_price": "",
@@ -731,7 +731,7 @@
   "status": "CLOSED"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
-  "multi_return": "11:05",
+  "multi_return": "11:45",
   "multi_state": "AVAILABLE",
   "name": "Expedition Everest - Legend of the Forbidden Mountain",
   "paid_price": "",
@@ -790,7 +790,7 @@
   "status": "CLOSED"
  },
  "6e118e37-5002-408d-9d88-0b5d9cdb5d14": {
-  "multi_return": "09:30",
+  "multi_return": "09:45",
   "multi_state": "AVAILABLE",
   "name": "Mickey & Minnie's Runaway Railway",
   "paid_price": "",
@@ -1011,7 +1011,7 @@
   "status": "CLOSED"
  },
  "81b15dfd-cf6a-466f-be59-3dd65d2a2807": {
-  "multi_return": "14:15",
+  "multi_return": "13:35",
   "multi_state": "AVAILABLE",
   "name": "Soarin' Across America",
   "paid_price": "",
@@ -1023,7 +1023,7 @@
   "status": "CLOSED"
  },
  "86a41273-5f15-4b54-93b6-829f140e5161": {
-  "multi_return": "14:50",
+  "multi_return": "14:30",
   "multi_state": "AVAILABLE",
   "name": "Peter Pan's Flight",
   "paid_price": "",
@@ -1172,7 +1172,7 @@
   "status": "CLOSED"
  },
  "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48": {
-  "multi_return": "10:45",
+  "multi_return": "11:15",
   "multi_state": "AVAILABLE",
   "name": "The Barnstormer",
   "paid_price": "",
@@ -1325,7 +1325,7 @@
   "status": "CLOSED"
  },
  "d58d9262-ec95-4161-80a0-07ca43b2f5f3": {
-  "multi_return": "13:40",
+  "multi_return": "13:45",
   "multi_state": "AVAILABLE",
   "name": "Kali River Rapids",
   "paid_price": "",
@@ -1407,7 +1407,7 @@
   "status": "CLOSED"
  },
  "de3309ca-97d5-4211-bffe-739fed47e92f": {
-  "multi_return": "22:00",
+  "multi_return": "22:10",
   "multi_state": "AVAILABLE",
   "name": "Big Thunder Mountain Railroad",
   "paid_price": "",
@@ -1498,7 +1498,7 @@
   "status": "CLOSED"
  },
  "e8f0b426-7645-4ea3-8b41-b94ae7091a41": {
-  "multi_return": "09:10",
+  "multi_return": "09:40",
   "multi_state": "AVAILABLE",
   "name": "Monsters, Inc. Laugh Floor",
   "paid_price": "",
@@ -1566,7 +1566,7 @@
   "status": "CLOSED"
  },
  "f163ddcd-43e1-488d-8276-2381c1db0a39": {
-  "multi_return": "10:30",
+  "multi_return": "11:30",
   "multi_state": "AVAILABLE",
   "name": "Tomorrowland Speedway",
   "paid_price": "",
@@ -1624,7 +1624,7 @@
   "status": "CLOSED"
  },
  "fb076275-0570-4d62-b2a9-4d6515130fa3": {
-  "multi_return": "10:00",
+  "multi_return": "10:10",
   "multi_state": "AVAILABLE",
   "name": "The Seas with Nemo & Friends",
   "paid_price": "",
