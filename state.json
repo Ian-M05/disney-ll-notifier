@@ -149,15 +149,15 @@
   "status": "CLOSED"
  },
  "1b15c77b-0311-4171-8e59-7f38e6d60754": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "09:30",
+  "multi_state": "AVAILABLE",
   "name": "Zootopia: Better Zoogether!",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 10,
+  "status": "OPERATING"
  },
  "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8": {
   "multi_return": "?",
@@ -272,9 +272,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
+  "standby": 5,
   "standby_armed": true,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "24cf863c-b6ba-4826-a056-0b698989cbf7": {
   "multi_return": "?",
@@ -284,9 +284,9 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 65,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
   "multi_return": "?",
@@ -731,16 +731,16 @@
   "status": "CLOSED"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "11:15",
+  "multi_state": "AVAILABLE",
   "name": "Expedition Everest - Legend of the Forbidden Mountain",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 5,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "66ff36de-9cb3-4d9a-b891-1665d19ffb3e": {
   "multi_return": "?",
@@ -965,16 +965,16 @@
   "status": "CLOSED"
  },
  "7a5af3b7-9bc1-4962-92d0-3ea9c9ce35f0": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "15:35",
+  "multi_state": "AVAILABLE",
   "name": "Na'vi River Journey",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 10,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "7c5e1e02-3a44-4151-9005-44066d5ba1da": {
   "multi_return": "?",
