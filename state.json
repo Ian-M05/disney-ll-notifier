@@ -149,15 +149,15 @@
   "status": "CLOSED"
  },
  "1b15c77b-0311-4171-8e59-7f38e6d60754": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "08:30",
+  "multi_state": "AVAILABLE",
   "name": "Zootopia: Better Zoogether!",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 5,
+  "status": "OPERATING"
  },
  "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8": {
   "multi_return": "?",
@@ -168,6 +168,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0": {
@@ -260,6 +261,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "23b613e0-ae83-455b-9163-231bdbd5c427": {
@@ -270,20 +272,21 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 5,
+  "standby_armed": true,
+  "status": "OPERATING"
  },
  "24cf863c-b6ba-4826-a056-0b698989cbf7": {
   "multi_return": "?",
   "multi_state": null,
   "name": "Avatar Flight of Passage",
   "paid_price": "$15.00",
-  "paid_return": "?",
-  "paid_state": "FINISHED",
+  "paid_return": "08:45",
+  "paid_state": "AVAILABLE",
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 30,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
   "multi_return": "15:30",
@@ -306,6 +309,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "273ddb8d-e7b5-4e34-8657-1113f49262a5": {
@@ -363,6 +367,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "30fe3c64-af71-4c66-a54b-aa61fd7af177": {
@@ -432,6 +437,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "37989fb7-5576-4247-bd6e-e981bc70cca2": {
@@ -443,6 +449,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "37ae57c5-feaf-4e47-8f27-4b385be200f0": {
@@ -512,6 +519,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef": {
@@ -546,6 +554,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "3e5f26ee-c02d-47fd-891e-5e4479073444": {
@@ -647,8 +656,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 35,
+  "standby_armed": true,
+  "status": "OPERATING"
  },
  "57acb522-a6fc-4aa4-a80e-21f21f317250": {
   "multi_return": "?",
@@ -693,8 +703,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 5,
+  "standby_armed": true,
+  "status": "OPERATING"
  },
  "61fb49f8-e62f-4e1c-ae0e-8ab9929037bc": {
   "multi_return": "?",
@@ -716,19 +727,20 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "10:25",
+  "multi_state": "AVAILABLE",
   "name": "Expedition Everest - Legend of the Forbidden Mountain",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 5,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "66ff36de-9cb3-4d9a-b891-1665d19ffb3e": {
   "multi_return": "?",
@@ -750,6 +762,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "6af80308-647d-4d8b-bcf6-37517a93bdbc": {
@@ -760,8 +773,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 15,
+  "standby_armed": true,
+  "status": "OPERATING"
  },
  "6be23178-7d00-4884-9e88-76787da1df86": {
   "multi_return": "?",
@@ -772,6 +786,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "6e118e37-5002-408d-9d88-0b5d9cdb5d14": {
@@ -851,6 +866,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "7288f24a-396e-4eeb-bb3b-4a90e65269f2": {
@@ -862,6 +878,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
@@ -897,6 +914,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "75449e85-c410-4cef-a368-9d2ea5d52b58": {
@@ -947,16 +965,16 @@
   "status": "CLOSED"
  },
  "7a5af3b7-9bc1-4962-92d0-3ea9c9ce35f0": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "12:35",
+  "multi_state": "AVAILABLE",
   "name": "Na'vi River Journey",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 5,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "7c5e1e02-3a44-4151-9005-44066d5ba1da": {
   "multi_return": "09:10",
@@ -978,6 +996,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "8183f3f2-1b59-4b9c-b634-6a863bdf8d84": {
@@ -1115,6 +1134,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "90d79335-c907-4069-a021-d0fe1ec73ae2": {
@@ -1137,6 +1157,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "9211adc9-b296-4667-8e97-b40cf76108e4": {
@@ -1206,6 +1227,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "b2260923-9315-40fd-9c6b-44dd811dbe64": {
@@ -1229,6 +1251,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "b694d5a5-155e-4796-af7e-5dbdcf3deba4": {
@@ -1240,6 +1263,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "b73e3256-9ee0-439e-9a3b-ffed287e10bb": {
@@ -1251,6 +1275,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53": {
@@ -1354,6 +1379,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "dbc4f0d8-fdef-4dfc-a1c2-33917f742f40": {
@@ -1503,6 +1529,7 @@
   "paid_state": null,
   "park": "Universal Studios Florida",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "ee070d46-6a64-41c0-9f12-69dcfcca10a0": {
@@ -1593,6 +1620,7 @@
   "paid_state": null,
   "park": "Universal Islands of Adventure",
   "standby": null,
+  "standby_armed": true,
   "status": "CLOSED"
  },
  "fb076275-0570-4d62-b2a9-4d6515130fa3": {
