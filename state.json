@@ -103,6 +103,17 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "144450b9-4574-46be-abdf-4b1ca8974d9d": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Hogwarts Express\u2122 - Hogsmeade\u2122 Station",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "18c533d6-a395-4ae4-9488-80fce9c497fe": {
   "multi_return": "?",
   "multi_state": null,
@@ -145,6 +156,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "E.T. Adventure\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
   "standby": null,
   "status": "CLOSED"
  },
@@ -195,6 +217,28 @@
   "standby_armed": false,
   "status": "CLOSED"
  },
+ "2122adff-52a3-49ca-9d20-5a6faafc8c77": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Hogwarts\u2122 Express - Last Train",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "22dcd29e-d76a-45cd-b44a-dd6350dc3f8a": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Jurassic Park Discovery Center\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "22f48b73-01df-460e-8969-9eb2b4ae836c": {
   "multi_return": "?",
   "multi_state": null,
@@ -205,6 +249,28 @@
   "park": "EPCOT",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "2365495a-790b-4a41-831e-65592c8a4359": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "The Cat in The Hat\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "23b613e0-ae83-455b-9163-231bdbd5c427": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Flight of the Hippogriff\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
   "status": "CLOSED"
  },
  "24cf863c-b6ba-4826-a056-0b698989cbf7": {
@@ -229,6 +295,17 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "25d47d04-a917-405a-9904-9be2b499b2dd": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Illumination's Villain-Con Minion Blast",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
   "status": "CLOSED"
  },
  "273ddb8d-e7b5-4e34-8657-1113f49262a5": {
@@ -274,6 +351,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "2f95b213-daaa-4370-8349-c2cd57be470e": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Doctor Doom's Fearfall\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
   "standby": null,
   "status": "CLOSED"
  },
@@ -335,6 +423,28 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "370ba4d1-f199-4dc2-be6d-6bb09b442891": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Skull Island: Reign of Kong\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "37989fb7-5576-4247-bd6e-e981bc70cca2": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Trolls Trollercoaster",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "37ae57c5-feaf-4e47-8f27-4b385be200f0": {
   "multi_return": "?",
   "multi_state": "FINISHED",
@@ -345,6 +455,17 @@
   "park": "EPCOT",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "391dea99-303d-42a1-aa86-a846d1c1fa1f": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "If I Ran The Zoo\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
   "status": "CLOSED"
  },
  "399aa0a1-98e2-4d2b-b297-2b451e9665e1": {
@@ -382,6 +503,17 @@
   "standby_armed": true,
   "status": "CLOSED"
  },
+ "3cb52134-e9d6-4212-83c8-3ce1321dcb05": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Caro-Seuss-el\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef": {
   "multi_return": "09:25",
   "multi_state": "AVAILABLE",
@@ -402,6 +534,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "3daca54f-50f0-44e9-a993-d706ce7520a0": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Pteranodon Flyers",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
   "standby": null,
   "status": "CLOSED"
  },
@@ -496,6 +639,17 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "578bbd12-1975-4ec3-9879-ea641c780342": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Hagrid's Magical Creatures Motorbike Adventure\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "57acb522-a6fc-4aa4-a80e-21f21f317250": {
   "multi_return": "?",
   "multi_state": "FINISHED",
@@ -531,6 +685,17 @@
   "standby_armed": true,
   "status": "CLOSED"
  },
+ "61079a31-4165-4fb0-b36f-c01c5971f80a": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Jurassic World VelociCoaster",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "61fb49f8-e62f-4e1c-ae0e-8ab9929037bc": {
   "multi_return": "?",
   "multi_state": null,
@@ -539,6 +704,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "625a3cc3-7d7e-468b-96fe-1ec00df7b739": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Race Through New York Starring Jimmy Fallon\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
   "standby": null,
   "status": "CLOSED"
  },
@@ -562,6 +738,39 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "6a3ffac7-bef4-4a22-8ba6-f2963aac7f70": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Fast & Furious - Supercharged\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "6af80308-647d-4d8b-bcf6-37517a93bdbc": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Harry Potter and the Forbidden Journey\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "6be23178-7d00-4884-9e88-76787da1df86": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "The Amazing Adventures of Spider-Man\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
   "standby": null,
   "status": "CLOSED"
  },
@@ -633,6 +842,28 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "70ac72a3-9675-4c41-a1b1-e4801072927a": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Harry Potter and the Escape from Gringotts\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "7288f24a-396e-4eeb-bb3b-4a90e65269f2": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Despicable Me Minion Mayhem\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
   "multi_return": "13:15",
   "multi_state": "AVAILABLE",
@@ -655,6 +886,17 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "750939c5-a69e-408a-8d55-66c272fa265e": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "TRANSFORMERS\u2122 The Ride-3D",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
   "status": "CLOSED"
  },
  "75449e85-c410-4cef-a368-9d2ea5d52b58": {
@@ -727,6 +969,17 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "7e70bc9e-7dce-4dd2-8823-57b8d6ec7570": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "The Simpsons Ride\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "8183f3f2-1b59-4b9c-b634-6a863bdf8d84": {
   "multi_return": "?",
   "multi_state": null,
@@ -783,6 +1036,17 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "8babd50d-c570-423b-bd53-d040cad3e087": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Me Ship, The Olive\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
   "status": "CLOSED"
  },
  "8c8cd77d-97f6-4309-b285-42aad90e9f15": {
@@ -842,6 +1106,17 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "905d7888-b866-4e74-90d1-07fc6ef6706f": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Dudley Do-Right's Ripsaw Falls\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "90d79335-c907-4069-a021-d0fe1ec73ae2": {
   "multi_return": "?",
   "multi_state": null,
@@ -850,6 +1125,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "91cae293-64f8-48b6-88ec-02dcfcdd1f91": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "MEN IN BLACK\u2122 Alien Attack!\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
   "standby": null,
   "status": "CLOSED"
  },
@@ -888,6 +1174,17 @@
   "standby_armed": true,
   "status": "CLOSED"
  },
+ "96e71193-49f0-40b2-9bba-644e530d8115": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Kang & Kodos' Twirl 'n' Hurl",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "9d4d5229-7142-44b6-b4fb-528920969a2c": {
   "multi_return": "?",
   "multi_state": null,
@@ -900,6 +1197,17 @@
   "standby_armed": false,
   "status": "CLOSED"
  },
+ "b1e94e05-b360-4e3f-be8a-2a3744a97f97": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "One Fish, Two Fish, Red Fish, Blue Fish\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "b2260923-9315-40fd-9c6b-44dd811dbe64": {
   "multi_return": "09:50",
   "multi_state": "AVAILABLE",
@@ -910,6 +1218,39 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "b4445a1c-4d5c-4fca-a04a-f8867f1b6619": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Popeye & Bluto's Bilge-Rat Barges\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "b694d5a5-155e-4796-af7e-5dbdcf3deba4": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Storm Force Accelatron\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "b73e3256-9ee0-439e-9a3b-ffed287e10bb": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "The High in the Sky Seuss Trolley Train Ride!\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
   "status": "CLOSED"
  },
  "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53": {
@@ -1001,6 +1342,17 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "db5b2165-15c2-4e51-8bd1-611e9c351866": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Jurassic Park River Adventure",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
   "standby": null,
   "status": "CLOSED"
  },
@@ -1142,6 +1494,17 @@
   "standby_armed": false,
   "status": "CLOSED"
  },
+ "ec25d9a7-b4d4-4ebf-a6c4-c18389351764": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Revenge of the Mummy\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "ee070d46-6a64-41c0-9f12-69dcfcca10a0": {
   "multi_return": "?",
   "multi_state": null,
@@ -1164,6 +1527,17 @@
   "standby": null,
   "status": "CLOSED"
  },
+ "f0750e5e-7629-4c53-99d2-e0924a8afeed": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Hogwarts Express\u2122 - King's Cross Station",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "f163ddcd-43e1-488d-8276-2381c1db0a39": {
   "multi_return": "10:00",
   "multi_state": "AVAILABLE",
@@ -1176,6 +1550,17 @@
   "standby_armed": true,
   "status": "CLOSED"
  },
+ "f44a531c-09cf-40c4-b2d4-236e8a9285dc": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Hogwarts\u2122 Express - First Train",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Studios Florida",
+  "standby": null,
+  "status": "CLOSED"
+ },
  "f5aad2d4-a419-4384-bd9a-42f86385c750": {
   "multi_return": "09:50",
   "multi_state": "AVAILABLE",
@@ -1186,6 +1571,28 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": true,
+  "status": "CLOSED"
+ },
+ "f6dba1c6-6f5a-4743-8470-f741ecac555d": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "Camp Jurassic\u2122",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
+  "status": "CLOSED"
+ },
+ "fa743143-281b-4b5b-b87b-d49fcb006772": {
+  "multi_return": "?",
+  "multi_state": null,
+  "name": "The Incredible Hulk Coaster\u00ae",
+  "paid_price": "",
+  "paid_return": "?",
+  "paid_state": null,
+  "park": "Universal Islands of Adventure",
+  "standby": null,
   "status": "CLOSED"
  },
  "fb076275-0570-4d62-b2a9-4d6515130fa3": {
