@@ -149,7 +149,7 @@
   "status": "CLOSED"
  },
  "1b15c77b-0311-4171-8e59-7f38e6d60754": {
-  "multi_return": "09:20",
+  "multi_return": "09:10",
   "multi_state": "AVAILABLE",
   "name": "Zootopia: Better Zoogether!",
   "paid_price": "",
@@ -172,7 +172,7 @@
   "status": "CLOSED"
  },
  "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0": {
-  "multi_return": "11:10",
+  "multi_return": "13:05",
   "multi_state": "AVAILABLE",
   "name": "Remy's Ratatouille Adventure",
   "paid_price": "",
@@ -207,8 +207,8 @@
   "status": "CLOSED"
  },
  "20b5daa8-e1ea-436f-830c-2d7d18d929b5": {
-  "multi_return": "18:40",
-  "multi_state": "AVAILABLE",
+  "multi_return": "?",
+  "multi_state": "FINISHED",
   "name": "Toy Story Mania!",
   "paid_price": "",
   "paid_return": "?",
@@ -289,7 +289,7 @@
   "status": "CLOSED"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
-  "multi_return": "15:50",
+  "multi_return": "15:55",
   "multi_state": "AVAILABLE",
   "name": "Haunted Mansion",
   "paid_price": "",
@@ -418,7 +418,7 @@
   "status": "CLOSED"
  },
  "35ed719b-f7f0-488f-8346-4fbf8055d373": {
-  "multi_return": "09:10",
+  "multi_return": "09:20",
   "multi_state": "AVAILABLE",
   "name": "Disney and Pixar Short Film Festival",
   "paid_price": "",
@@ -476,8 +476,8 @@
   "status": "CLOSED"
  },
  "399aa0a1-98e2-4d2b-b297-2b451e9665e1": {
-  "multi_return": "20:00",
-  "multi_state": "AVAILABLE",
+  "multi_return": "?",
+  "multi_state": "FINISHED",
   "name": "Slinky Dog Dash",
   "paid_price": "",
   "paid_return": "?",
@@ -593,7 +593,7 @@
   "status": "CLOSED"
  },
  "480fde8f-fe58-4bfb-b3ab-052a39d4db7c": {
-  "multi_return": "11:40",
+  "multi_return": "12:20",
   "multi_state": "AVAILABLE",
   "name": "Spaceship Earth",
   "paid_price": "",
@@ -661,7 +661,7 @@
   "status": "CLOSED"
  },
  "57acb522-a6fc-4aa4-a80e-21f21f317250": {
-  "multi_return": "10:10",
+  "multi_return": "10:20",
   "multi_state": "AVAILABLE",
   "name": "Turtle Talk With Crush",
   "paid_price": "",
@@ -684,7 +684,7 @@
   "status": "CLOSED"
  },
  "5b6475ad-4e9a-4793-b841-501aa382c9c0": {
-  "multi_return": "13:35",
+  "multi_return": "13:00",
   "multi_state": "AVAILABLE",
   "name": "Mission: SPACE",
   "paid_price": "",
@@ -790,7 +790,7 @@
   "status": "CLOSED"
  },
  "6e118e37-5002-408d-9d88-0b5d9cdb5d14": {
-  "multi_return": "10:35",
+  "multi_return": "11:00",
   "multi_state": "AVAILABLE",
   "name": "Mickey & Minnie's Runaway Railway",
   "paid_price": "",
@@ -824,7 +824,7 @@
   "status": "CLOSED"
  },
  "6f6998e8-a629-412c-b964-2cb06af8e26b": {
-  "multi_return": "19:35",
+  "multi_return": "19:45",
   "multi_state": "AVAILABLE",
   "name": "The Twilight Zone\u2122 Tower of Terror",
   "paid_price": "",
@@ -882,7 +882,7 @@
   "status": "CLOSED"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
-  "multi_return": "14:35",
+  "multi_return": "15:45",
   "multi_state": "AVAILABLE",
   "name": "Buzz Lightyear\u2019s Space Ranger Spin",
   "paid_price": "",
@@ -918,7 +918,7 @@
   "status": "CLOSED"
  },
  "75449e85-c410-4cef-a368-9d2ea5d52b58": {
-  "multi_return": "09:45",
+  "multi_return": "10:25",
   "multi_state": "AVAILABLE",
   "name": "Journey Into Imagination With Figment",
   "paid_price": "",
@@ -953,7 +953,7 @@
   "status": "CLOSED"
  },
  "796b0a25-c51e-456e-9bb8-50a324e301b3": {
-  "multi_return": "10:00",
+  "multi_return": "10:05",
   "multi_state": "AVAILABLE",
   "name": "Jungle Cruise",
   "paid_price": "",
@@ -1011,7 +1011,7 @@
   "status": "REFURBISHMENT"
  },
  "81b15dfd-cf6a-466f-be59-3dd65d2a2807": {
-  "multi_return": "16:25",
+  "multi_return": "15:25",
   "multi_state": "AVAILABLE",
   "name": "Soarin' Across America",
   "paid_price": "",
@@ -1313,7 +1313,7 @@
   "status": "CLOSED"
  },
  "d56506e2-6ad3-443a-8065-fea37987248d": {
-  "multi_return": "10:30",
+  "multi_return": "13:30",
   "multi_state": "AVAILABLE",
   "name": "Alien Swirling Saucers",
   "paid_price": "",
@@ -1325,7 +1325,7 @@
   "status": "CLOSED"
  },
  "d58d9262-ec95-4161-80a0-07ca43b2f5f3": {
-  "multi_return": "12:20",
+  "multi_return": "12:30",
   "multi_state": "AVAILABLE",
   "name": "Kali River Rapids",
   "paid_price": "",
@@ -1624,7 +1624,7 @@
   "status": "CLOSED"
  },
  "fb076275-0570-4d62-b2a9-4d6515130fa3": {
-  "multi_return": "10:15",
+  "multi_return": "10:10",
   "multi_state": "AVAILABLE",
   "name": "The Seas with Nemo & Friends",
   "paid_price": "",
