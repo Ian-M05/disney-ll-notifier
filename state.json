@@ -871,15 +871,15 @@
  },
  "7288f24a-396e-4eeb-bb3b-4a90e65269f2": {
   "multi_return": "?",
-  "multi_state": null,
+  "multi_state": "TEMP_FULL",
   "name": "Despicable Me Minion Mayhem\u2122",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": null,
+  "standby": 30,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
   "multi_return": "17:40",
@@ -1158,7 +1158,7 @@
   "park": "Universal Studios Florida",
   "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "9211adc9-b296-4667-8e97-b40cf76108e4": {
   "multi_return": "?",
