@@ -18,7 +18,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 50,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -111,7 +111,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 35,
+  "standby": 60,
   "status": "OPERATING"
  },
  "18c533d6-a395-4ae4-9488-80fce9c497fe": {
@@ -133,7 +133,7 @@
   "paid_return": "21:25",
   "paid_state": "AVAILABLE",
   "park": "Disney's Hollywood Studios",
-  "standby": 60,
+  "standby": 50,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -167,7 +167,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 35,
+  "standby": 25,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -179,7 +179,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 50,
+  "standby": 35,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -260,9 +260,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": null,
+  "standby": 20,
   "standby_armed": true,
-  "status": "DOWN"
+  "status": "OPERATING"
  },
  "23b613e0-ae83-455b-9163-231bdbd5c427": {
   "multi_return": "?",
@@ -284,8 +284,8 @@
   "paid_return": "16:10",
   "paid_state": "AVAILABLE",
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": 60,
-  "standby_armed": true,
+  "standby": 35,
+  "standby_armed": false,
   "status": "OPERATING"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
@@ -296,7 +296,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 25,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -320,7 +320,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 5,
+  "standby": 10,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -332,7 +332,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 40,
+  "standby": 55,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -366,7 +366,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 35,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -401,7 +401,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 45,
+  "standby": 25,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -413,9 +413,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "35ed719b-f7f0-488f-8346-4fbf8055d373": {
   "multi_return": "09:20",
@@ -430,13 +430,13 @@
  },
  "370ba4d1-f199-4dc2-be6d-6bb09b442891": {
   "multi_return": "?",
-  "multi_state": null,
+  "multi_state": "TEMP_FULL",
   "name": "Skull Island: Reign of Kong\u2122",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 25,
+  "standby": 20,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -460,7 +460,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 70,
+  "standby": 75,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -483,7 +483,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 55,
+  "standby": 60,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -518,7 +518,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 15,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -530,7 +530,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 25,
+  "standby": 30,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -553,7 +553,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 40,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -576,9 +576,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 85,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "447033ce-ee1f-4cca-bb12-47d22583ac12": {
   "multi_return": "?",
@@ -588,7 +588,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 20,
+  "standby": 10,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -656,9 +656,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 50,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "57acb522-a6fc-4aa4-a80e-21f21f317250": {
   "multi_return": "10:40",
@@ -679,7 +679,7 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "Magic Kingdom Park",
-  "standby": 65,
+  "standby": 60,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -703,7 +703,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 50,
+  "standby": 55,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -738,7 +738,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": 20,
+  "standby": 30,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -761,7 +761,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 10,
+  "standby": 15,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -773,7 +773,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 35,
+  "standby": 50,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -785,7 +785,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 40,
+  "standby": 25,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -797,7 +797,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 45,
+  "standby": 30,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -831,7 +831,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 30,
+  "standby": 35,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -865,7 +865,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 40,
+  "standby": 60,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -877,7 +877,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 40,
+  "standby": 35,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -889,7 +889,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 45,
+  "standby": 30,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -901,7 +901,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 65,
+  "standby": 70,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -927,7 +927,7 @@
   "park": "EPCOT",
   "standby": null,
   "standby_armed": true,
-  "status": "DOWN"
+  "status": "OPERATING"
  },
  "76caa8d0-f54b-4601-9d57-a7f1ddc02af4": {
   "multi_return": "?",
@@ -937,7 +937,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 30,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -960,7 +960,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 40,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -972,7 +972,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": 40,
+  "standby": 35,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -989,11 +989,11 @@
  },
  "7e70bc9e-7dce-4dd2-8823-57b8d6ec7570": {
   "multi_return": "?",
-  "multi_state": null,
+  "multi_state": "TEMP_FULL",
   "name": "The Simpsons Ride\u2122",
-  "paid_price": "",
-  "paid_return": "?",
-  "paid_state": null,
+  "paid_price": "$14.99",
+  "paid_return": "16:45",
+  "paid_state": "AVAILABLE",
   "park": "Universal Studios Florida",
   "standby": 35,
   "standby_armed": false,
@@ -1008,7 +1008,7 @@
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": null,
-  "status": "REFURBISHMENT"
+  "status": "CLOSED"
  },
  "81b15dfd-cf6a-466f-be59-3dd65d2a2807": {
   "multi_return": "14:05",
@@ -1018,7 +1018,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 35,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1030,7 +1030,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 35,
+  "standby": 50,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1043,7 +1043,7 @@
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": null,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "890fa430-89c0-4a3f-96c9-11597888005e": {
   "multi_return": "10:00",
@@ -1087,7 +1087,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 50,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1099,7 +1099,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 15,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1127,7 +1127,7 @@
  },
  "905d7888-b866-4e74-90d1-07fc6ef6706f": {
   "multi_return": "?",
-  "multi_state": "TEMP_FULL",
+  "multi_state": null,
   "name": "Dudley Do-Right's Ripsaw Falls\u00ae",
   "paid_price": "",
   "paid_return": "?",
@@ -1179,7 +1179,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": 20,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1191,7 +1191,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 5,
+  "standby": null,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1203,7 +1203,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 25,
+  "standby": 10,
   "status": "OPERATING"
  },
  "9d4d5229-7142-44b6-b4fb-528920969a2c": {
@@ -1214,9 +1214,9 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "Magic Kingdom Park",
-  "standby": null,
+  "standby": 70,
   "standby_armed": true,
-  "status": "DOWN"
+  "status": "OPERATING"
  },
  "b1e94e05-b360-4e3f-be8a-2a3744a97f97": {
   "multi_return": "?",
@@ -1226,7 +1226,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 5,
+  "standby": 15,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1238,9 +1238,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 25,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "b4445a1c-4d5c-4fca-a04a-f8867f1b6619": {
   "multi_return": "?",
@@ -1274,7 +1274,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 15,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1332,8 +1332,8 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": 75,
-  "standby_armed": true,
+  "standby": 40,
+  "standby_armed": false,
   "status": "OPERATING"
  },
  "d7669edc-eaa1-4af2-bbb5-6e98df564166": {
@@ -1355,7 +1355,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 10,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1390,7 +1390,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 135,
+  "standby": 120,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1402,7 +1402,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 135,
+  "standby": 145,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1414,7 +1414,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 40,
+  "standby": 45,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1437,7 +1437,7 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "EPCOT",
-  "standby": 60,
+  "standby": 120,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1471,7 +1471,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Hollywood Studios",
-  "standby": 55,
+  "standby": 65,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1483,7 +1483,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
+  "standby": 30,
   "status": "OPERATING"
  },
  "e7976e25-4322-4587-8ded-fb1d9dcbb83c": {
@@ -1516,7 +1516,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 65,
+  "standby": 40,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1528,7 +1528,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 60,
+  "standby": 50,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1562,7 +1562,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 35,
+  "standby": 50,
   "status": "OPERATING"
  },
  "f163ddcd-43e1-488d-8276-2381c1db0a39": {
@@ -1573,7 +1573,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": 10,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1596,7 +1596,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 5,
+  "standby": 20,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1619,7 +1619,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Islands of Adventure",
-  "standby": 20,
+  "standby": 10,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1643,7 +1643,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 5,
+  "standby": 15,
   "status": "OPERATING"
  }
 }
