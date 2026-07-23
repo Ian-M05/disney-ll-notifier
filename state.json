@@ -156,8 +156,8 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
-  "status": "CLOSED"
+  "standby": 10,
+  "status": "OPERATING"
  },
  "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8": {
   "multi_return": "?",
@@ -284,9 +284,9 @@
   "paid_return": "16:10",
   "paid_state": "AVAILABLE",
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 45,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
   "multi_return": "16:55",
@@ -738,9 +738,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 5,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "66ff36de-9cb3-4d9a-b891-1665d19ffb3e": {
   "multi_return": "?",
@@ -972,9 +972,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Disney's Animal Kingdom Theme Park",
-  "standby": null,
+  "standby": 10,
   "standby_armed": false,
-  "status": "CLOSED"
+  "status": "OPERATING"
  },
  "7c5e1e02-3a44-4151-9005-44066d5ba1da": {
   "multi_return": "09:20",
