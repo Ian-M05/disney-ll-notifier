@@ -726,9 +726,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 5,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "64a6915f-a835-4226-ba5c-8389fc4cade3": {
   "multi_return": "?",
@@ -865,9 +865,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 25,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "7288f24a-396e-4eeb-bb3b-4a90e65269f2": {
   "multi_return": "?",
@@ -913,9 +913,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 5,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "75449e85-c410-4cef-a368-9d2ea5d52b58": {
   "multi_return": "?",
@@ -1528,9 +1528,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Studios Florida",
-  "standby": 5,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "ee070d46-6a64-41c0-9f12-69dcfcca10a0": {
   "multi_return": "?",
