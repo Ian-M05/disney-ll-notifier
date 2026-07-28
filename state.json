@@ -18,9 +18,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Universal Epic Universe",
-  "standby": 5,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "07143999-bacd-475f-a00b-8cc476204aff": {
   "multi_return": "?",
@@ -46,7 +46,7 @@
   "status": "CLOSED"
  },
  "0aae716c-af13-4439-b638-d75fb1649df3": {
-  "multi_return": "21:10",
+  "multi_return": "09:10",
   "multi_state": "AVAILABLE",
   "name": "Mad Tea Party",
   "paid_price": "",
@@ -70,14 +70,14 @@
   "status": "CLOSED"
  },
  "0d94ad60-72f0-4551-83a6-ebaecdd89737": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "16:30",
+  "multi_state": "AVAILABLE",
   "name": "The Many Adventures of Winnie the Pooh",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -100,8 +100,8 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
-  "status": "OPERATING"
+  "standby": null,
+  "status": "CLOSED"
  },
  "144450b9-4574-46be-abdf-4b1ca8974d9d": {
   "multi_return": "?",
@@ -123,7 +123,7 @@
   "paid_state": null,
   "park": "EPCOT",
   "standby": null,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "1a2e70d9-50d5-4140-b69e-799e950f7d18": {
   "multi_return": "?",
@@ -179,9 +179,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 40,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "1f542745-cda1-4786-a536-5fff373e5964": {
   "multi_return": "?",
@@ -248,9 +248,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 5,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "2365495a-790b-4a41-831e-65592c8a4359": {
   "multi_return": "?",
@@ -289,14 +289,14 @@
   "status": "CLOSED"
  },
  "2551a77d-023f-4ab1-9a19-8afec0190f39": {
-  "multi_return": "21:30",
+  "multi_return": "17:15",
   "multi_state": "AVAILABLE",
   "name": "Haunted Mansion",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": 13,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -320,9 +320,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 5,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "281bc9e6-b208-4a70-85d2-0fb749c7658b": {
   "multi_return": "?",
@@ -368,7 +368,7 @@
   "park": "Universal Islands of Adventure",
   "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "30fe3c64-af71-4c66-a54b-aa61fd7af177": {
   "multi_return": "?",
@@ -406,16 +406,16 @@
   "status": "CLOSED"
  },
  "352feb94-e52e-45eb-9c92-e4b44c6b1a9d": {
-  "multi_return": "21:10",
+  "multi_return": "14:10",
   "multi_state": "AVAILABLE",
   "name": "Pirates of the Caribbean",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "DOWN"
  },
  "35ed719b-f7f0-488f-8346-4fbf8055d373": {
   "multi_return": "?",
@@ -460,9 +460,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 65,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "391dea99-303d-42a1-aa86-a846d1c1fa1f": {
   "multi_return": "?",
@@ -523,7 +523,7 @@
   "status": "CLOSED"
  },
  "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef": {
-  "multi_return": "21:10",
+  "multi_return": "10:25",
   "multi_state": "AVAILABLE",
   "name": "Under the Sea - Journey of The Little Mermaid",
   "paid_price": "",
@@ -600,9 +600,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 10,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "482169b9-2889-4747-8aef-f9d13a37d940": {
   "multi_return": "?",
@@ -679,8 +679,8 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "Magic Kingdom Park",
-  "standby": 85,
-  "standby_armed": true,
+  "standby": 35,
+  "standby_armed": false,
   "status": "OPERATING"
  },
  "5b6475ad-4e9a-4793-b841-501aa382c9c0": {
@@ -691,9 +691,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 15,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "61079a31-4165-4fb0-b36f-c01c5971f80a": {
   "multi_return": "?",
@@ -854,8 +854,8 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
-  "status": "OPERATING"
+  "standby": null,
+  "status": "CLOSED"
  },
  "70ac72a3-9675-4c41-a1b1-e4801072927a": {
   "multi_return": "?",
@@ -882,14 +882,14 @@
   "status": "CLOSED"
  },
  "72c7343a-f7fb-4f66-95df-c91016de7338": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "17:30",
+  "multi_state": "AVAILABLE",
   "name": "Buzz Lightyear\u2019s Space Ranger Spin",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -903,7 +903,7 @@
   "park": "Magic Kingdom Park",
   "standby": null,
   "standby_armed": false,
-  "status": "DOWN"
+  "status": "CLOSED"
  },
  "750939c5-a69e-408a-8d55-66c272fa265e": {
   "multi_return": "?",
@@ -950,17 +950,17 @@
   "paid_state": null,
   "park": "EPCOT",
   "standby": null,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "796b0a25-c51e-456e-9bb8-50a324e301b3": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "11:55",
+  "multi_state": "AVAILABLE",
   "name": "Jungle Cruise",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 20,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -977,15 +977,15 @@
   "status": "CLOSED"
  },
  "7c5e1e02-3a44-4151-9005-44066d5ba1da": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "09:20",
+  "multi_state": "AVAILABLE",
   "name": "Mickey's PhilharMagic",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": null,
-  "status": "DOWN"
+  "status": "CLOSED"
  },
  "7e70bc9e-7dce-4dd2-8823-57b8d6ec7570": {
   "multi_return": "?",
@@ -1018,19 +1018,19 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 20,
+  "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "86a41273-5f15-4b54-93b6-829f140e5161": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "14:45",
+  "multi_state": "AVAILABLE",
   "name": "Peter Pan's Flight",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 35,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1046,14 +1046,14 @@
   "status": "CLOSED"
  },
  "890fa430-89c0-4a3f-96c9-11597888005e": {
-  "multi_return": "21:10",
+  "multi_return": "10:00",
   "multi_state": "AVAILABLE",
   "name": "Dumbo the Flying Elephant",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 35,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1087,9 +1087,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 50,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "8f353879-d6ac-4211-9352-4029efb47c18": {
   "multi_return": "?",
@@ -1146,7 +1146,7 @@
   "paid_state": null,
   "park": "Magic Kingdom Park",
   "standby": null,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "91cae293-64f8-48b6-88ec-02dcfcdd1f91": {
   "multi_return": "?",
@@ -1172,19 +1172,19 @@
   "status": "CLOSED"
  },
  "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48": {
-  "multi_return": "21:10",
+  "multi_return": "11:00",
   "multi_state": "AVAILABLE",
   "name": "The Barnstormer",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
  "96455de6-f4f1-403c-9391-bf8396979149": {
-  "multi_return": "21:10",
+  "multi_return": "10:40",
   "multi_state": "AVAILABLE",
   "name": "The Magic Carpets of Aladdin",
   "paid_price": "",
@@ -1214,8 +1214,8 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "Magic Kingdom Park",
-  "standby": 85,
-  "standby_armed": true,
+  "standby": 20,
+  "standby_armed": false,
   "status": "OPERATING"
  },
  "b1e94e05-b360-4e3f-be8a-2a3744a97f97": {
@@ -1231,14 +1231,14 @@
   "status": "CLOSED"
  },
  "b2260923-9315-40fd-9c6b-44dd811dbe64": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "10:20",
+  "multi_state": "AVAILABLE",
   "name": "Space Mountain",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 30,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1355,7 +1355,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 15,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1368,7 +1368,7 @@
   "paid_state": null,
   "park": "EPCOT",
   "standby": null,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "db5b2165-15c2-4e51-8bd1-611e9c351866": {
   "multi_return": "?",
@@ -1407,14 +1407,14 @@
   "status": "CLOSED"
  },
  "de3309ca-97d5-4211-bffe-739fed47e92f": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "14:30",
+  "multi_state": "AVAILABLE",
   "name": "Big Thunder Mountain Railroad",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 40,
+  "standby": 5,
   "standby_armed": false,
   "status": "OPERATING"
  },
@@ -1437,9 +1437,9 @@
   "paid_return": "?",
   "paid_state": "FINISHED",
   "park": "EPCOT",
-  "standby": 105,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "e39b831b-7731-49bb-815b-289b4f49a9fd": {
   "multi_return": "?",
@@ -1530,7 +1530,7 @@
   "park": "Universal Studios Florida",
   "standby": null,
   "standby_armed": false,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "ee070d46-6a64-41c0-9f12-69dcfcca10a0": {
   "multi_return": "?",
@@ -1566,14 +1566,14 @@
   "status": "CLOSED"
  },
  "f163ddcd-43e1-488d-8276-2381c1db0a39": {
-  "multi_return": "?",
-  "multi_state": "FINISHED",
+  "multi_return": "10:30",
+  "multi_state": "AVAILABLE",
   "name": "Tomorrowland Speedway",
   "paid_price": "",
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
+  "standby": 5,
   "standby_armed": true,
   "status": "OPERATING"
  },
@@ -1589,7 +1589,7 @@
   "status": "CLOSED"
  },
  "f5aad2d4-a419-4384-bd9a-42f86385c750": {
-  "multi_return": "21:10",
+  "multi_return": "10:05",
   "multi_state": "AVAILABLE",
   "name": "\"it's a small world\"",
   "paid_price": "",
@@ -1631,9 +1631,9 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "EPCOT",
-  "standby": 5,
+  "standby": null,
   "standby_armed": true,
-  "status": "OPERATING"
+  "status": "CLOSED"
  },
  "ffcfeaa2-1416-4920-a1ed-543c1a1695c4": {
   "multi_return": "?",
@@ -1643,7 +1643,7 @@
   "paid_return": "?",
   "paid_state": null,
   "park": "Magic Kingdom Park",
-  "standby": 10,
+  "standby": 5,
   "status": "OPERATING"
  }
 }
