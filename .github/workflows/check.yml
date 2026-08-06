@@ -1,8 +1,8 @@
 name: Lightning Lane watch
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"   # every 5 min (GitHub may delay 5-20 min under load)
+  # Automatic polling disabled — the project is retired. Run by hand from the
+  # Actions tab if you ever want to; nothing runs on a schedule anymore.
   workflow_dispatch:         # lets you run it manually from the Actions tab
     inputs:
       test_notify:
